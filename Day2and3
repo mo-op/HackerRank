@@ -1,0 +1,22 @@
+In a single toss of fair (evenly-weighted) six-sided dice, find the probability that their sum will be at most .
+5 / 6
+
+There are urns labeled , , and .
+
+    Urn contains red balls and black balls.
+    Urn contains red balls and black balls.
+    Urn contains red balls and black balls.
+
+One ball is drawn from each of the urns. What is the probability that, of the balls drawn, are red and is black?
+17 / 42
+
+A bag contains red marbles and blue marbles. Then, marbles are drawn from the bag, at random, without replacement. 
+If the first marble drawn is red, what is the probability that the second marble is blue?
+
+2 / 3
+
+You draw cards from a standard -card deck without replacing them. What is the probability that both cards are of the same suit?
+12 / 51
+
+Suppose a family has children, one of which is a boy. What is the probability that both children are boys?
+1 / 3
