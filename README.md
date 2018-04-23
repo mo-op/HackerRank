@@ -1,2 +1,2 @@
-# R
-Just me and my relatively new bud, R.
+# HackerRank
+Exploring concepts on the website.
