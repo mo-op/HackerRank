@@ -90,10 +90,5 @@ Join
 Intersection
 Set difference 
 
-How many index architecture type classifications are there in MS SQL Server?
 
-1
-**2**
-3
-4
 
