@@ -1,5 +1,7 @@
 You are given two sets.
+
 Set A = {1,2,3,4,5,6}
+
 Set B = {2,3,4,5,6,7,8}
 
 How many elements are present in A or B?
@@ -59,4 +61,39 @@ Depends on the expression
 **Left to right**
 Right to left
 From user specification
+
+Using which language can a user request information from a database ?
+
+**Query**
+Relational
+Structural
+Compiler
+
+Which one of the following is a procedural language ?
+
+Domain relational calculus
+Tuple relational calculus
+**Relational algebra**
+Query language
+
+The __ operation allows the combining of two relations by merging pairs of tuples, one from each relation, into a single tuple.
+
+Select
+**Join**
+Union
+Intersection
+
+The result which operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.
+
+Join
+**Cartesian product**
+Intersection
+Set difference 
+
+How many index architecture type classifications are there in MS SQL Server?
+
+1
+**2**
+3
+4
 
