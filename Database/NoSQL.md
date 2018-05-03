@@ -1,5 +1,5 @@
 1. Map reduce
-```
+```python
 #!/usr/bin/python
 import sys
 from collections import OrderedDict
