@@ -42,3 +42,8 @@ if __name__ == '__main__':
 		inputData.append(line)
 	mapReducer.execute(inputData, mapper, reducer)
   ```
+
+2. Map Reduce 
+Input Format: A list of comma separated records from the tables Employee and Department
+Output Format: ([SSN] [Employee_Name] [Department_Name])
+
