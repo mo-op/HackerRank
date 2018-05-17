@@ -1,4 +1,4 @@
-Only the medium & hard exercises
+## Only the medium & hard exercises
 
 Kevin and Stuart want to play the 'The Minion Game'.
 
