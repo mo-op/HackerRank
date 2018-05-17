@@ -17,7 +17,7 @@ For Example:
 String = BANANA
 Kevin's vowel beginning word = ANA
 Here, ANA occurs twice in BANANA. Hence, Kevin will get 2 Points. 
-
+``` 
 def minion_game(string):
     k=len(s) 
     kevin=0 
@@ -31,3 +31,4 @@ def minion_game(string):
     elif kevin>stuart: 
         print "Kevin", kevin 
     else: print "Draw"
+``` 
