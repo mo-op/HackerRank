@@ -19,16 +19,17 @@ Kevin's vowel beginning word = ANA
 Here, ANA occurs twice in BANANA. Hence, Kevin will get 2 Points. 
 ``` 
 def minion_game(string):
-    k=len(s) 
-    kevin=0 
+    k = len(s) 
+    kevin = 0 
     stuart = 0
     for i in range(k): 
         if s[i] in "AEIOU": 
-            kevin+=(k-i) 
-        stuart=k*(k+1)/2-kevin 
-    if stuart>kevin: 
+            kevin += (k-i) 
+        stuart = k*(k+1)/2 - kevin 
+    if stuart > kevin: 
         print "Stuart",stuart 
-    elif kevin>stuart: 
+    elif kevin > stuart: 
         print "Kevin", kevin 
-    else: print "Draw"
+    else: 
+        print "Draw"
 ``` 
