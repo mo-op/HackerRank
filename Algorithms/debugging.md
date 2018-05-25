@@ -72,5 +72,34 @@ y2 = int(date[5])
 result = findPrimeDates(d1, m1, y1, d2, m2, y2)
 print(result)
 ```
+Given an array of distinct integers, transform the array into a zig zag sequence by permuting the array elements. A sequence will be called a zig zag sequence if the first elements in the sequence are in increasing order and the last elements are in decreasing order.
 
+```
+def findZigZagSequence(a, n):
+    a.sort()
+    #change 1 : adding the -1
+    mid = int((n + 1)/2)-1
+    a[mid], a[n-1] = a[n-1], a[mid]
 
+    st = mid + 1
+    #change 2: n-2 instead of n-1
+    ed = n - 2
+    while(st <= ed):
+        a[st], a[ed] = a[ed], a[st]
+        st = st + 1
+        #change 3: ed-1 instead of +1
+        ed = ed - 1
+
+    for i in range (n):
+        if i == n-1:
+            print(a[i])
+        else:
+            print(a[i], end = ' ')
+    return
+
+test_cases = int(input())
+for cs in range (test_cases):
+    n = int(input())
+    a = list(map(int, input().split()))
+    findZigZagSequence(a, n)
+```
